@@ -4,6 +4,6 @@ const { AUTH_ROUTES } = require('../constants');
 
 const router = Router();
 
-router.post(AUTH_ROUTES.SIGNUP, authController.signup);
+router.post( AUTH_ROUTES.LOGIN, authController.login);
 
 module.exports = router;

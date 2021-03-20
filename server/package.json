@@ -23,6 +23,7 @@
     "prettier": "^2.2.1"
   },
   "dependencies": {
+    "bcrypt": "^5.0.1",
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "eslint-plugin-jsx-a11y": "^6.4.1",
